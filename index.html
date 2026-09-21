@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es-UY">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ZAPASTRONE — El patrón de tus zapas.</title>
+<meta name="description" content="ZAPASTRONE, streetwear y sneakers desde Uruguay. Catálogo, talles y compra directa por WhatsApp. El patrón de tus zapas.">
+<meta name="keywords" content="zapatillas Uruguay, sneakers Uruguay, streetwear Uruguay, ZAPASTRONE, zapatillas Montevideo">
+<link rel="canonical" href="https://TU-DOMINIO-AQUI/">
+
+<!-- Vista previa al compartir en redes / WhatsApp -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="ZAPASTRONE — El patrón de tus zapas.">
+<meta property="og:description" content="Streetwear y sneakers desde Uruguay. Catálogo, talles y compra directa por WhatsApp.">
+<meta property="og:url" content="https://TU-DOMINIO-AQUI/">
+<meta property="og:image" content="https://TU-DOMINIO-AQUI/og-imagen.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===================== BARRA SUPERIOR ===================== -->
+<header class="barra">
+  <div class="contenedor barra-interior">
+    <div class="logo-mini">ZAPASTRONE <span>UY</span></div>
+
+    <nav>
+      <ul class="nav-desktop">
+        <li><a href="#destacados">Destacados</a></li>
+        <li><a href="#catalogo">Catálogo</a></li>
+        <li><a href="#como-comprar">Cómo comprar</a></li>
+        <li><a href="#envios">Envíos</a></li>
+      </ul>
+    </nav>
+
+    <div class="acciones-barra">
+      <button type="button" class="btn-carrito" id="abrirCarrito" aria-label="Abrir carrito">
+        🛒
+        <span class="contador-carrito oculto" id="contadorCarrito">0</span>
+      </button>
+      <button type="button" class="btn-menu" id="botonMenu" aria-label="Abrir menú">☰</button>
+    </div>
+  </div>
+
+  <nav class="nav-mobile" id="navMobile">
+    <a href="#destacados">Destacados</a>
+    <a href="#catalogo">Catálogo</a>
+    <a href="#como-comprar">Cómo comprar</a>
+    <a href="#envios">Envíos</a>
+  </nav>
+</header>
+
+<!-- ===================== PORTADA / HERO ===================== -->
+<section class="hero">
+  <div class="hero-textura"></div>
+  <div class="contenedor hero-contenido">
+    <span class="hero-etiqueta">Streetwear · Uruguay</span>
+    <h1 class="hero-marca">ZAPASTRONE</h1>
+    <p class="hero-eslogan">El patrón de tus zapas.</p>
+    <div class="hero-cta">
+      <a href="#catalogo" class="boton boton-primario">Ver catálogo</a>
+      <a href="#como-comprar" class="boton boton-secundario">Cómo comprar</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== MARQUESINA DE MARCA ===================== -->
+<div class="marquesina">
+  <div class="marquesina-pista">
+    <span>ZAPASTRONE</span><span>EL PATRÓN DE TUS ZAPAS</span><span>STREETWEAR UY</span>
+    <span>ZAPASTRONE</span><span>EL PATRÓN DE TUS ZAPAS</span><span>STREETWEAR UY</span>
+  </div>
+</div>
+
+<!-- ===================== DESTACADOS ===================== -->
+<section class="seccion" id="destacados">
+  <div class="contenedor">
+    <div class="encabezado-seccion revelar">
+      <div>
+        <span class="numero-seccion">Selección de la casa</span>
+        <h2>Destacados</h2>
+        <p>Los modelos que más se están moviendo esta temporada.</p>
+      </div>
+    </div>
+    <div class="grilla-productos" id="grillaDestacados"></div>
+  </div>
+</section>
+
+<!-- ===================== CATÁLOGO ===================== -->
+<section class="seccion seccion-alt" id="catalogo">
+  <div class="contenedor">
+    <div class="encabezado-seccion revelar">
+      <div>
+        <span class="numero-seccion">Todo el stock</span>
+        <h2>Catálogo</h2>
+        <p>Filtrá por categoría y elegí tu talle antes de comprar.</p>
+      </div>
+    </div>
+
+    <div class="filtros">
+      <button type="button" class="chip-filtro activo" data-categoria="todas">Todas</button>
+      <button type="button" class="chip-filtro" data-categoria="lifestyle">Lifestyle</button>
+      <button type="button" class="chip-filtro" data-categoria="basketball">Basketball</button>
+      <button type="button" class="chip-filtro" data-categoria="running">Running</button>
+      <button type="button" class="chip-filtro" data-categoria="skate">Skate</button>
+    </div>
+
+    <div class="grilla-productos" id="grillaProductos"></div>
+  </div>
+</section>
+
+<!-- ===================== CÓMO COMPRAR ===================== -->
+<section class="seccion" id="como-comprar">
+  <div class="contenedor">
+    <div class="encabezado-seccion revelar">
+      <div>
+        <span class="numero-seccion">Paso a paso</span>
+        <h2>Cómo comprar</h2>
+      </div>
+    </div>
+
+    <div class="pasos">
+      <div class="paso revelar">
+        <span class="paso-num">1</span>
+        <h3>Elegí tu modelo</h3>
+        <p>Recorré el catálogo y seleccioná el talle disponible.</p>
+      </div>
+      <div class="paso revelar">
+        <span class="paso-num">2</span>
+        <h3>Tocá "Comprar"</h3>
+        <p>Se abre WhatsApp con tu pedido ya armado, listo para enviar.</p>
+      </div>
+      <div class="paso revelar">
+        <span class="paso-num">3</span>
+        <h3>Coordinamos</h3>
+        <p>Te confirmamos stock, forma de pago y datos de envío.</p>
+      </div>
+      <div class="paso revelar">
+        <span class="paso-num">4</span>
+        <h3>Recibís tus zapas</h3>
+        <p>En Montevideo o en cualquier punto de Uruguay.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ENVÍOS ===================== -->
+<section class="seccion seccion-alt" id="envios">
+  <div class="contenedor envios">
+    <div class="revelar">
+      <span class="numero-seccion">Uruguay entero</span>
+      <h2 style="margin-bottom:20px">Envíos</h2>
+      <ul class="envios-lista">
+        <li>
+          <strong>Montevideo</strong>
+          <span>Entrega en el día o al siguiente día hábil. <em>(Editar con tu tiempo real)</em></span>
+        </li>
+        <li>
+          <strong>Interior del país</strong>
+          <span>A través de agencia de encomiendas, 24 a 48 hs. <em>(Editar)</em></span>
+        </li>
+        <li>
+          <strong>Retiro en persona</strong>
+          <span>Coordinás el punto de encuentro por WhatsApp. <em>(Editar)</em></span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="envios-nota revelar">
+      <p>Costo de envío</p>
+      <strong>A coordinar según localidad — completá acá tu política real de envíos y costos.</strong>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PIE / FOOTER ===================== -->
+<footer class="pie">
+  <div class="contenedor pie-arriba">
+    <div>
+      <div class="pie-marca">ZAPASTRONE</div>
+      <p class="pie-eslogan">El patrón de tus zapas.</p>
+    </div>
+
+    <div class="pie-redes">
+      <a href="#" data-instagram target="_blank" rel="noopener" class="boton boton-secundario">Instagram</a>
+    </div>
+  </div>
+
+  <div class="contenedor pie-abajo">
+    <span>© <span id="anioActual"></span> ZAPASTRONE — Uruguay</span>
+    <span>Precios y stock sujetos a confirmación por WhatsApp.</span>
+  </div>
+</footer>
+
+<!-- ===================== CARRITO LATERAL ===================== -->
+<div class="fondo-carrito" id="fondoCarrito"></div>
+<aside class="panel-carrito" id="panelCarrito" aria-label="Carrito de compras">
+  <div class="carrito-encabezado">
+    <h2>Tu carrito</h2>
+    <button type="button" class="cerrar-carrito" id="cerrarCarrito" aria-label="Cerrar carrito">✕</button>
+  </div>
+  <div class="carrito-items" id="carritoItems"></div>
+  <div class="carrito-pie">
+    <div class="carrito-total">
+      <span>Total</span>
+      <span id="carritoTotal">$0</span>
+    </div>
+    <button type="button" class="boton boton-comprar" id="finalizarCompra">Finalizar por WhatsApp</button>
+  </div>
+</aside>
+
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", (user) => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+<script src="script.js"></script>
+</body>
+</html>
