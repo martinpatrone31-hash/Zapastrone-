@@ -1,6 +1,9 @@
+
 backend:
-  name: git-gateway
+  name: github
+  repo: martinpatrone31-hash/Zapastrone-
   branch: main
+
 
 # Las fotos que subas desde el panel se guardan en esta carpeta del proyecto
 media_folder: "imagenes-productos"
