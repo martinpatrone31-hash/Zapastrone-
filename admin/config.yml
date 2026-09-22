@@ -1,0 +1,40 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Las fotos que subas desde el panel se guardan en esta carpeta del proyecto
+media_folder: "imagenes-productos"
+public_folder: "/imagenes-productos"
+
+collections:
+  - name: "productos"
+    label: "Productos"
+    files:
+      - file: "data/productos.json"
+        label: "Catálogo de productos"
+        name: "catalogo"
+        fields:
+          - label: "Productos"
+            name: "productos"
+            widget: "list"
+            summary: "{{fields.nombre}} — {{fields.precio}}"
+            fields:
+              - { label: "ID (no repetir)", name: "id", widget: "number", value_type: "int" }
+              - { label: "Nombre del modelo", name: "nombre", widget: "string" }
+              - label: "Categoría"
+                name: "categoria"
+                widget: "select"
+                options:
+                  - { label: "Lifestyle", value: "lifestyle" }
+                  - { label: "Basketball", value: "basketball" }
+                  - { label: "Running", value: "running" }
+                  - { label: "Skate", value: "skate" }
+              - { label: "Precio (en pesos uruguayos)", name: "precio", widget: "number", value_type: "int" }
+              - label: "Talles disponibles"
+                name: "talles"
+                widget: "list"
+                field: { label: "Talle", name: "talle", widget: "number", value_type: "int" }
+              - { label: "¿Disponible?", name: "disponible", widget: "boolean", default: true }
+              - { label: "¿Mostrar en Destacados?", name: "destacado", widget: "boolean", default: false }
+              - { label: "Foto del producto", name: "imagen", widget: "image" }
+              - { label: "¿Es un producto de ejemplo (demo)?", name: "demo", widget: "boolean", default: false }
