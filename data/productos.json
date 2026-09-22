@@ -2,69 +2,69 @@
   "productos": [
     {
       "id": 1,
-      "nombre": "Modelo Ejemplo 01",
+      "nombre": "Nike Cadence",
       "categoria": "lifestyle",
-      "precio": 3990,
-      "talles": [38, 39, 40, 41, 42],
+      "precio": 2990,
+      "talles": [39, 40, 41, 42],
       "disponible": true,
       "destacado": true,
-      "imagen": "https://placehold.co/600x750/0d0d0d/f7f7f5?text=ZAPASTRONE",
-      "demo": true
+      "imagen": "3ef048db-b128-4a3e-aa26-8b745d0fceb2.jpeg",
+      "demo": false
     },
     {
       "id": 2,
-      "nombre": "Modelo Ejemplo 02",
-      "categoria": "basketball",
-      "precio": 4590,
-      "talles": [40, 41, 42, 43],
+      "nombre": "Nike Dunk Celeste",
+      "categoria": "lifestyle",
+      "precio": 3990,
+      "talles": [39, 40, 41, 42],
       "disponible": true,
       "destacado": true,
-      "imagen": "https://placehold.co/600x750/1a1a1a/f7f7f5?text=ZAPASTRONE",
-      "demo": true
+      "imagen": "0656bd5d-d54b-4c20-a07a-7836096ccc75.jpeg",
+      "demo": false
     },
     {
       "id": 3,
-      "nombre": "Modelo Ejemplo 03",
+      "nombre": "Nike Zoom Fit+",
       "categoria": "running",
-      "precio": 3490,
-      "talles": [37, 38, 39, 40],
-      "disponible": false,
-      "destacado": false,
-      "imagen": "https://placehold.co/600x750/2b2b2b/f7f7f5?text=ZAPASTRONE",
-      "demo": true
+      "precio": 2990,
+      "talles": [39, 40, 41, 42],
+      "disponible": true,
+      "destacado": true,
+      "imagen": "a495f786-391e-4449-aee8-25b4f21f36df.jpeg",
+      "demo": false
     },
     {
       "id": 4,
-      "nombre": "Modelo Ejemplo 04",
-      "categoria": "skate",
-      "precio": 3290,
-      "talles": [39, 40, 41, 42, 43],
+      "nombre": "Jordan 11 \"01 Alta\"",
+      "categoria": "basketball",
+      "precio": 5990,
+      "talles": [39, 40, 41, 42],
       "disponible": true,
       "destacado": true,
-      "imagen": "https://placehold.co/600x750/0d0d0d/f7f7f5?text=ZAPASTRONE",
-      "demo": true
+      "imagen": "3edd8c9b-ebde-4d4b-b9f5-17784bed5da6.jpeg",
+      "demo": false
     },
     {
       "id": 5,
-      "nombre": "Modelo Ejemplo 05",
-      "categoria": "lifestyle",
-      "precio": 4190,
-      "talles": [38, 39, 41],
+      "nombre": "Jordan 4 Lakers",
+      "categoria": "basketball",
+      "precio": 4990,
+      "talles": [39, 40, 41, 42],
       "disponible": true,
       "destacado": false,
-      "imagen": "https://placehold.co/600x750/1a1a1a/f7f7f5?text=ZAPASTRONE",
-      "demo": true
+      "imagen": "35976c05-82e3-4fb4-99bf-5a5414d3bc05.jpeg",
+      "demo": false
     },
     {
       "id": 6,
-      "nombre": "Modelo Ejemplo 06",
-      "categoria": "basketball",
-      "precio": 4990,
-      "talles": [41, 42, 43, 44],
+      "nombre": "Vans Kids",
+      "categoria": "skate",
+      "precio": 2990,
+      "talles": [39, 40, 41, 42],
       "disponible": true,
       "destacado": false,
-      "imagen": "https://placehold.co/600x750/2b2b2b/f7f7f5?text=ZAPASTRONE",
-      "demo": true
+      "imagen": "68f0220f-90ad-47d1-9d35-adea12971f4d.jpeg",
+      "demo": false
     }
   ]
 }
