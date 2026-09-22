@@ -1,0 +1,70 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Modelo Ejemplo 01",
+      "categoria": "lifestyle",
+      "precio": 3990,
+      "talles": [38, 39, 40, 41, 42],
+      "disponible": true,
+      "destacado": true,
+      "imagen": "https://placehold.co/600x750/0d0d0d/f7f7f5?text=ZAPASTRONE",
+      "demo": true
+    },
+    {
+      "id": 2,
+      "nombre": "Modelo Ejemplo 02",
+      "categoria": "basketball",
+      "precio": 4590,
+      "talles": [40, 41, 42, 43],
+      "disponible": true,
+      "destacado": true,
+      "imagen": "https://placehold.co/600x750/1a1a1a/f7f7f5?text=ZAPASTRONE",
+      "demo": true
+    },
+    {
+      "id": 3,
+      "nombre": "Modelo Ejemplo 03",
+      "categoria": "running",
+      "precio": 3490,
+      "talles": [37, 38, 39, 40],
+      "disponible": false,
+      "destacado": false,
+      "imagen": "https://placehold.co/600x750/2b2b2b/f7f7f5?text=ZAPASTRONE",
+      "demo": true
+    },
+    {
+      "id": 4,
+      "nombre": "Modelo Ejemplo 04",
+      "categoria": "skate",
+      "precio": 3290,
+      "talles": [39, 40, 41, 42, 43],
+      "disponible": true,
+      "destacado": true,
+      "imagen": "https://placehold.co/600x750/0d0d0d/f7f7f5?text=ZAPASTRONE",
+      "demo": true
+    },
+    {
+      "id": 5,
+      "nombre": "Modelo Ejemplo 05",
+      "categoria": "lifestyle",
+      "precio": 4190,
+      "talles": [38, 39, 41],
+      "disponible": true,
+      "destacado": false,
+      "imagen": "https://placehold.co/600x750/1a1a1a/f7f7f5?text=ZAPASTRONE",
+      "demo": true
+    },
+    {
+      "id": 6,
+      "nombre": "Modelo Ejemplo 06",
+      "categoria": "basketball",
+      "precio": 4990,
+      "talles": [41, 42, 43, 44],
+      "disponible": true,
+      "destacado": false,
+      "imagen": "https://placehold.co/600x750/2b2b2b/f7f7f5?text=ZAPASTRONE",
+      "demo": true
+    }
+  ]
+}
